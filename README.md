@@ -4,7 +4,7 @@ A lightweight, responsive User Management Dashboard built with  JavaScript, HTML
 ## 📸 Screenshots
 
 ### 🔐 Doctor Dashboard 
-<img width="844" height="802" alt="Doctor Dashboard" src="https://github.com/user-attachments/assets/64c1a3c5-607e-4cbf-8d28-0103fbef040" />
+<img width="844" height="802" alt="Doctor Dashboard" src="docter-dashboard.png" />
 
 ### 🔐 Appointment List 
 <img width="933" height="907" alt="Appointment List" src="appintment-list.png" />
