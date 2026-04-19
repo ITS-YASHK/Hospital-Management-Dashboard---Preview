@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospital Management System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+
+    body{
+      background:linear-gradient(135deg,#0f172a,#1e293b);
+      color:#fff;
+      line-height:1.6;
+    }
+
+    header{
+      text-align:center;
+      padding:40px 20px;
+    }
+
+    header h1{
+      font-size:2rem;
+      font-weight:700;
+    }
+
+    header p{
+      opacity:0.8;
+      margin-top:10px;
+      font-size:0.95rem;
+    }
+
+    .container{
+      width:90%;
+      max-width:1000px;
+      margin:auto;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.05);
+      backdrop-filter:blur(12px);
+      border-radius:20px;
+      padding:20px;
+      margin-bottom:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .features{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:15px;
+      margin-top:15px;
+    }
+
+    .feature-box{
+      background:rgba(255,255,255,0.08);
+      padding:15px;
+      border-radius:12px;
+      font-size:0.9rem;
+    }
+
+    .screenshots{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:10px;
+      margin-top:15px;
+    }
+
+    .screenshots img{
+      width:100%;
+      border-radius:12px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:15px;
+      padding:12px 18px;
+      border-radius:10px;
+      background:linear-gradient(135deg,#22c55e,#16a34a);
+      text-decoration:none;
+      color:white;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    .btn:hover{transform:scale(1.05)}
+
+    footer{
+      text-align:center;
+      margin:20px 0;
+      font-size:0.8rem;
+      opacity:0.6;
+    }
+
+    /* Mobile */
+    @media(max-width:600px){
+      .features{
+        grid-template-columns:1fr;
+      }
+      .screenshots{
+        grid-template-columns:1fr;
+      }
+      header h1{
+        font-size:1.6rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🏥 Hospital Management Dashboard</h1>
+  <p>Smart system to manage appointments, doctors, and staff efficiently.</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>🚀 Project Overview</h2>
+    <p>
+      A hospital management dashboard that helps users manage doctor appointments,
+      view current and upcoming bookings, and handle staff details in a clean and
+      organized interface.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>✨ Features</h2>
+    <div class="features">
+      <div class="feature-box">📅 Manage Appointments</div>
+      <div class="feature-box">👨‍⚕️ Doctor Listing</div>
+      <div class="feature-box">🧾 Patient Records</div>
+      <div class="feature-box">🏢 Staff Management</div>
+      <div class="feature-box">📊 Dashboard Overview</div>
+      <div class="feature-box">⚡ Fast UI</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🖼️ Screenshots</h2>
+    <div class="screenshots">
+      <img src="docter-dashboard.png" alt="Screenshot 1">
+      <img src="staff-dashbpard.png" alt="Screenshot 2">
+      <img src="appintment-list.png" alt="Screenshot 3">
+      <img src="patient-report.png" alt="Screenshot 4">
+    </div>
+  </div>
+
+  <!-- <div class="card" style="text-align:center">
+    <h2>📦 Project Status</h2>
+    <p>Currently in development 🚧</p>
+    <a href="#" class="btn">Demo</a>
+  </div> -->
+
+</div>
+
+<footer>
+  © 2026 Yash Chaurasia
+</footer>
+
+</body>
+</html>
